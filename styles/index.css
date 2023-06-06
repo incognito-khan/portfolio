@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #020325;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.navBar {
+    background-color: #06094e;
+    display: flex;
+    padding: 1rem 56rem;
+}
+
+.list_item {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.list_item:hover {
+    color: #9b1bf0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.li {
+    list-style: none;
+}
+
+.logo {
+    position: absolute;
+    top: 1.2rem;
+    left: 13rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+.Intro {
+    color: white;
+    font-size: 1.6rem;
+    position: relative;
+    top: 13rem;
+    left: 4rem;
+}
+
+.first-line {
+    font-size: 2.9rem;
+    position: relative;
+    top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.sec-line {
+    font-size: 3rem;
+    position: relative;
+    top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.animation {
+    font-size: 3.6rem;
+    color: #9b1bf0;
+}
+
+.name {
+    color: #9b1bf0;
+}
+
+.img {
+    width: 33rem;
+}
+
+.image {
+    position: relative;
+    left: 53rem;
+    bottom: 6rem;
+}
+
+.hire {
+    background-color: #9b1bf0;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #9b1bf0;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: 14rem;
+    left: 4.1rem;
+    cursor: pointer;
+}
+
+.hire:hover {
+    background-color: #06094e;
+    color: white;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #06094e;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: 14rem;
+    left: 4.1rem;
+    cursor: pointer;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pop-heading {
+    color: white;
+    font-size: 5.3rem;
+}
+
+.desc {
+    color: white;
+    font-size: 2rem;
+}
+
+.img-grid-1 {
+    display: flex;
+    align-items: center;
+}
+
+.img-grid-1 img{
+    padding: 3rem;
+}
+.img-grid-2 {
+    display: flex;
+    align-items: center;
+}
+
+.img-grid-2 img{
+    padding: 3rem;
+}
+.img-grid-3 {
+    display: flex;
+}
+
+.img-grid-3 img{
+    padding: 3rem;
+    align-items: center;
+}
+
+.img-grid {
+    width: 25%;
+    height: 25%;
+}
+
+.footer {
+    background-color: #06094e;
+    width: 100vw;
+    height: 13rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.links {
+    display: flex;
+    position: relative;
+    left: 63rem;
+    top: 3rem;
+}
+
+.footer-grid-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+    right: 3.3rem;
+}
+
+.footer-grid-1 a:hover{
+    text-decoration: none;
+    color: #9b1bf0;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+    right: 3.3rem;
+}
+
+.footer-grid-1 a h5{
+    padding: 1rem;
+}
+
+.footer-grid-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+}
+
+.footer-grid-2 a:hover{
+    text-decoration: none;
+    color: #9b1bf0;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+}
+
+.footer-grid-2 a h5{
+    padding: 1rem;
+}
+
+.my-name a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    position: relative;
+    top: 4rem;
+    right: 17.5rem;
+}
