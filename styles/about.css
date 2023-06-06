@@ -46,3 +46,138 @@ body {
     color: white;
     font-size: 1.6rem;
 }
+
+.about-image {
+    width: 100vw;
+    height: 60vh;
+    opacity: 0.6;
+}
+
+.color {
+    width: 100vw;
+    height: 60vh;
+    background-color: #9b1bf0;
+    opacity: 0.7;
+    position: absolute;
+    top: 4rem;
+}
+
+.about-heading {
+    color: white;
+    font-size: 10rem;
+    position: absolute;
+    top: 13rem;
+    left: 27rem;
+}
+
+.main-body {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.purple {
+    color: #9b1bf0;
+}
+
+.para1 {
+    padding-bottom: 2.5rem;
+    width: 90vw;
+}
+
+.para2 {
+    padding-bottom: 2.5rem;
+    width: 90vw;
+}
+
+.para3 {
+    padding-bottom: 2.5rem;
+    width: 90vw;
+}
+
+.para4 {
+    padding-bottom: 2.5rem;
+    width: 90vw;
+}
+
+.page-link {
+    color: white;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    color: #9b1bf0;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #06094e;
+    width: 100vw;
+    height: 13rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.links {
+    display: flex;
+    position: relative;
+    left: 63rem;
+    top: 3rem;
+}
+
+.footer-grid-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+    right: 3.3rem;
+}
+
+.footer-grid-1 a:hover{
+    text-decoration: none;
+    color: #9b1bf0;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+    right: 3.3rem;
+}
+
+.footer-grid-1 a h5{
+    padding: 1rem;
+}
+
+.footer-grid-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+}
+
+.footer-grid-2 a:hover{
+    text-decoration: none;
+    color: #9b1bf0;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 2.9rem;
+}
+
+.footer-grid-2 a h5{
+    padding: 1rem;
+}
+
+.my-name a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    position: relative;
+    top: 4rem;
+    right: 17.5rem;
+}
